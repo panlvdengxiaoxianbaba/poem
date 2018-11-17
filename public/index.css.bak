@@ -1,0 +1,50 @@
+*{margin:0px;padding:0ox;}
+body{background:url('img/1.jpg') no-repeat fixed center}
+.header{margin:0 auto;background-color:transparent;
+	position:relative;}
+.header ul{display:flex;flex-flow:row nowrap;justify-content:space-around;}
+li{list-style:none;}
+a{text-decoration:none}
+.header ul a{font-size:3rem;color:#fff;font-family:"华文楷体"}
+ p{display:flex;justify-content:flex-end}
+.user p a{text-decoration:none;font-size:1.3rem;color:#eee;font-family:"华文楷体"}
+.action{height:400px;}
+.aside ul{display:flex;justify-content:space-around;}
+.aside ul a{color:#bdc4cc;font-size:1rem;font-family:"华文彩云"}
+@media screen and (min-width:992px){
+	.header{width:1200px;}
+	.header ul{width:60%}
+	.user p{width:80%}
+	.aside ul{width:70%}
+
+}
+@media screen and (min-width:768px) and (max-width:991px){
+	.header ul{width:100%}
+	.user p{width:100%;justify-content:center}
+	.aside ul{width:100%}
+	.aside ul{width:100%}
+	.aside ul a{display:block;width:25%}
+}
+@media screen and (max-width:767px){
+	.header ul{width:100%}
+	.user p{width:100%;justify-content:center}
+	.aside ul {flex-flow:column}
+	.aside ul li{align-self:center;justify-content:space-around;}
+	.aside ul a{font-size:2rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
