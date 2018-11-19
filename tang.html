@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/ajax.js"></script>
+    <title>主页</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="lei.css">
+</head>
+<body>
+<div class="daddy">
+    <div class='header'>
+        <ul class="pt-5">
+            <li><a href="">唐</a></li>
+            <li><a href="">宋</a></li>
+            <li><a href="">缘</a></li>
+        </ul>
+
+    </div>
+    <div class="user">
+        <p class="hide"id="btn1"><img src="img/biao2.png" alt=""></p>
+        <p id="user1" class="hidener">
+            <a class="pl-2" href="">联系我们|</a>
+            <a class="pl-2" href="">诗词历史|</a>
+            <a class="pl-2" href="">意见反馈</a>
+        </p>
+        <div id="userh">
+            <a href="#myModal" data-toggle="modal" class="mr-4"><span> |登录</span></a>
+            <a href=""><span>收藏</span></a>
+
+        </div>
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <sapn class="ml-2">欢迎登陆</sapn>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="" id="form1">
+                        <table>
+                            <tr>
+                                <td colspan="2"><input type="text" placeholder="请输入手机号" class="form-control " maxlength="11" name="uphone"></td>
+                                <td class="pl-2"><img src="img/ok.png" alt="" class="hiden"><span class="vis hiden">请输入正确的手机号码</span></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="password" placeholder="请输入密码" class="form-control " maxlength="9" name="upassword"></td>
+                                <td class="pl-2"><img src="img/ok.png" alt="" class="hiden"><span class="vis hiden" >请输入11位以内数字或字母</span></td>
+                            </tr>
+                            <tr>
+                                <td colspan='3' >
+                                    <input type="checkbox" name="remember" id="a1" value=""><label for="a1"> 记住账号</label>
+                                    <a href="" class="" id="a2">忘记密码？</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"><input type="button" value="登陆" class="btn btn-info sub" id="btnsub"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="" >&lt;其他登陆方式</a>
+                    <a href="">免费注册&gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="center row">
+        <div class="col-md-10 col-sm-12">
+            <div class="content">
+                <div>
+                    <ul class="tabs">
+                        <li class="active"><a data-toggle="tab" href="#">五言</a></li>
+                        <li><a data-toggle="tab" href="#">七言</a></li>
+                        <li><a data-toggle="tab" href="#"><词牌></词牌></a></li>
+                    </ul>
+                    <p><hr></p>
+                </div>
+                <div>
+
+                </div>
+                <div class="">
+                    <div class="tangP">
+                        <div class="line3"></div>
+                        <h3>40、<a href="http://www.shicimingju.com/chaxun/list/27115.html">《筹笔驿》</a></h3>
+                        <div class="summary">
+                            猿鸟犹疑畏简书，风云常为护储胥。徒令上将挥神笔，终见降王走传车。管乐有才终不忝，关张无命欲何如。他年...
+                        </div>
+                        <div class="line3"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="aside col-md-2 col-sm-12">
+            <ul class="">
+                <li><a href="">李商隐</a></li>
+                <li><a href="">李白</a></li>
+                <li><a href="">白居易</a></li>
+                <li><a href="">杜甫</a></li>
+                <li><a href="">苏轼</a></li>
+                <li><a href="">辛弃疾</a></li>
+                <li><a href="">李清照</a></li>
+                <li><a href="">王维</a></li>
+                <li><a href="">刘禹锡</a></li>
+                <li><a href="">杜牧</a></li>
+                <li><a href="">陆游</a></li>
+                <li><a href="">元稹</a></li>
+                <li><a href="">岑参</a></li>
+                <li><a href="">柳永</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div></div>
+    </footer>
+</div>
+<script src="js/Collapse.js"></script>
+<script src="js/jiaohu.js"></script>
+<script src="js/tang.js"></script>
+</body>
+</html>
