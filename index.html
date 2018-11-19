@@ -4,109 +4,100 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<title>主页</title>
 	<meta charset='utf-8'>
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <div class="daddy container">
-		<div class='header navbar bg-dark navbar-expand-md '>
-			<div class="one pt-2 ">
-				<a href="">唐</a>
-				<a href="">宋</a>
-				<a href="">缘</a>
-			</div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#content">
-			<span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse pl-5"id="content">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a href="" class="nav-link">联系我们</a></li>
-					<li class="nav-item"><a href="" class="nav-link">商家入驻</a></li>
-					<li class="nav-item"><a href="" class="nav-link">客服投诉</a></li>
+  <div class="daddy">
+	<div class='header'>
+				<ul class="pt-5">
+					<li><a href="tang.html">唐</a></li>
+					<li><a href="">宋</a></li>
+					<li><a href="">缘</a></li>
 				</ul>
-			</div>
-			<div class="user">
-				<p class="mt-5">
-					<a href="" class="mr-4" data-toggle="modal"data-target="#mymodal"><span> |登录</span></a>
-					<a href=""><span>收藏</span></a>
-				</p>
-			</div>
-		</div>
-	  <div class="modal" id="mymodal">
+
+	</div>
+	  <div class="user">
+		  <p class="hide"id="btn1"><img src="img/biao2.png" alt=""></p>
+		  <p id="user1" class="hidener">
+			  <a class="pl-2" href="">联系我们|</a>
+			  <a class="pl-2" href="">诗词历史|</a>
+			  <a class="pl-2" href="">意见反馈</a>
+		  </p>
+		  <div id="userh">
+			  <a href="#myModal" data-toggle="modal" class="mr-4"><span> |登录</span></a>
+			  <a href=""><span>收藏</span></a>
+
+          </div>
+      </div>
+	  <div class="modal" id="myModal">
 		  <div class="modal-dialog">
 			  <div class="modal-content">
 				  <div class="modal-header">
-					  <h4>欢迎登录</h4>
-					  <button class="close"data-dismiss="modal">关闭</button>
+					  <sapn class="ml-2">欢迎登陆</sapn>
+					  <button type="button" class="close" data-dismiss="modal">&times;</button>
 				  </div>
 				  <div class="modal-body">
-					  <table>
-					  <form action="user/reg" method="get">
-						  <tr>
-							  <td><label for="">用户名:</label></td>
-							  <td><input type="text"></td>
-						  </tr>
-						  <tr>
-							  <td><label for="">密码:</label></td>
-							  <td><input type="password"></td>
-						  </tr>
-						  <tr>
-							  <td colspapn="2">
-								  <button class="btn btn-primary">登录</button></td>
-						  </tr>
+					  <form action="" id="form1">
+						  <table>
+							  <tr>
+								  <td colspan="2"><input type="text" placeholder="请输入手机号" class="form-control " maxlength="11" name="uphone"></td>
+								  <td class="pl-2"><img src="img/ok.png" alt="" class="hiden"><span class="vis hiden">请输入正确的手机号码</span></td>
+							  </tr>
+							  <tr>
+								  <td colspan="2"><input type="password" placeholder="请输入密码" class="form-control " maxlength="9" name="upassword"></td>
+								  <td class="pl-2"><img src="img/ok.png" alt="" class="hiden"><span class="vis hiden" >请输入11位以内数字或字母</span></td>
+							  </tr>
+							  <tr>
+								  <td colspan='3' >
+									  <input type="checkbox" name="remember" id="a1" value=""><label for="a1"> 记住账号</label>
+									  <a href="" class="" id="a2">忘记密码？</a>
+								  </td>
+							  </tr>
+							  <tr>
+								  <td colspan="3"><input type="button" value="登陆" class="btn btn-info sub" id="btnsub"></td>
+							  </tr>
+						  </table>
 					  </form>
-					  </table>
+				  </div>
+				  <div class="modal-footer">
+					  <a href="" >&lt;其他登陆方式</a>
+					  <a href="">免费注册&gt;</a>
 				  </div>
 			  </div>
 		  </div>
 	  </div>
-	  <div class="action">
-		  <div class="carousel" id="car" data-ride="carousel">
-			  <div class="carousel-inner ">
-				  <div class="carousel-item active">
-					  <img src="img/1.png "class="myImg">
-				  </div>
-				  <div class="carousel-item">
-					  <img src="img/2.png" class="myImg">
-				  </div>
-				  <div class="carousel-item">
-					  <img src="img/1.png" class="myImg">
-				  </div>
-				  <div class="carousel-item">
-					  <img src="img/2.png"class="myImg">
-				  </div>
-		  </div>
-		  </div>
-
-
-	  </div>
-  <div class="aside navbar navbar-expand-md">
-		  <ul class="nav-bar">
-		  	<li class="nav-item"><a class="nav-link" href="">李商隐</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">李白</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">白居易</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">杜甫</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">苏轼</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">辛弃疾</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">李清照</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">王维</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">刘禹锡</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">杜牧</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">陆游</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">元稹</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">岑参</a></li>
-		  	<li class="nav-item"><a class="nav-link" href="">柳永</a></li>
+<div class="center row">
+	  <div class="col-md-9 col-sm-12"></div>
+	  <div class="aside col-md-3 col-sm-12">
+		  <ul class="text-center">
+		  	<li><a href="">李商隐</a></li>
+		  	<li><a href="">李白</a></li>
+		  	<li><a href="">白居易</a></li>
+		  	<li><a href="">杜甫</a></li>
+		  	<li><a href="">苏轼</a></li>
+		  	<li><a href="">辛弃疾</a></li>
+		  	<li><a href="">李清照</a></li>
+		  	<li><a href="">王维</a></li>
+		  	<li><a href="">刘禹锡</a></li>
+		  	<li><a href="">杜牧</a></li>
+		  	<li><a href="">陆游</a></li>
+		  	<li><a href="">元稹</a></li>
+		  	<li><a href="">岑参</a></li>
+		  	<li><a href="">柳永</a></li>
 		  </ul>
 	</div>
-
+</div>
 	
 	<footer>
 		<div></div>
 	</footer>
   </div>
-	<script></script>
+	<script src="js/Collapse.js"></script>
+	<script src="js/jiaohu.js"></script>
 </body>
 </html>
 
