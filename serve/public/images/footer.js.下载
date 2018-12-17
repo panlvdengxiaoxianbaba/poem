@@ -1,0 +1,21 @@
+/**
+ * Created by Tarena on 2018/1/9.
+ */
+/*
+(()=>{
+    $(".footer").load("footer.html");
+})();*/
+/*(()=>{
+    ajax({
+        type:"get",
+        url:"footer.html"
+    }).then(html=>{
+        document.getElementsByClassName("footer")[0].innerHTML=html;
+
+    })
+})();*/
+$(()=> {
+    $(".footer").load(
+        "footer.html"
+    )
+});

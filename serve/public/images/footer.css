@@ -1,0 +1,111 @@
+
+.footer_box{
+    width:100%;
+    height:92px;
+    border-top:1px solid #e8e8e8;
+    border-bottom:1px solid #e8e8e8;
+}
+.footer_top{
+    width:1240px;
+    margin:0 auto;
+    height:76px;
+    padding-top:16px;
+}
+.footer_top .foot_item{
+    width:33%;
+    height:60px;
+    float: left;
+    border-right:1px solid #e8e8e8;
+    line-height:60px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.footer_top .foot_item:last-child{
+    border-right:none;
+}
+.footer_top .foot_item i{
+    font-style: normal;
+    font-weight: normal;
+    width:36px;
+    height:36px;
+    display: inline-block;
+    line-height: 36px;
+    vertical-align: top;
+    margin: 10px 10px 0 0;
+    border: 2px solid #23AC38;
+    border-radius: 20px;
+    color: #23AC38;
+}
+.serve{
+    width:100%;
+    height:269px;
+    border-bottom:1px solid #e8e8e8;
+}
+.serve .serve_box{
+    width:1240px;
+    height:270px;
+    margin:0 auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.serve .serve_box dl{
+     font-size: 12px;
+    margin-top:42px;
+
+}
+.serve .serve_box dl dt{
+    font-size: 16px;
+    line-height: 40px;
+
+}
+.serve .serve_box dl dt a{
+     color: #848484;
+ }
+.serve .serve_box dl dt a:hover{
+    color: #23AC38;
+}
+.serve .serve_box dl dd{
+    line-height: 30px;
+
+}
+.serve .serve_box dl dd a{
+    color: #848484;
+}
+.serve .serve_box dl dd a:hover{
+    color:#23AC38;
+    text-decoration: underline;
+}
+.footer_foot{
+    width:100%;
+    height:22px;
+    padding:30px 0;
+
+}
+.footer_foot .footer_p{
+    width:1240px;
+    height:22px;
+    text-align: center;
+    line-height: 22px;
+    margin:0 auto;
+}
+.phone_color{
+    font-size: 20px;
+    color: #4ABA00;
+}
+.phone_text{
+    font-size: 14px;
+    color: #4ABA00;
+}
+/*.serve .serve_box dl p{
+    height:100px;
+    width:140px;
+    display: block;
+    text-align: left;
+}
+.serve .serve_box dl p img{
+    vertical-align: middle;
+    border: 0;
+}*/
+
